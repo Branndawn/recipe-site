@@ -1,8 +1,73 @@
+body {
+   background: fixed url("../img/whitebackground-scotcheroos.JPG");
+   background-size: cover;
+}
+
+#history {
+    background: fixed url("../img/scotcheroos-on-a-plate.jpg");
+   background-size: cover;
+}
+
+#ingredients {
+    background: fixed url("../img/ingredients-background.jpg");
+   background-size: cover;
+}
+
+#steps {
+    background: fixed url("../img/.jpg");
+   background-size: cover;
+}
+
+p {
+    font-size-adjust: 30%;
+    color: #F5E4CD
+}
+
 header {
-				background-color: orange;
-				padding: 50px;
-				position: fixed;
-				width: 100%;
-				z-index: 2;
-				box-shadow: 10px 10px 5px #000
-			}
+	background-color: #2D3047;
+	padding: 5px;
+    position: fixed;
+	width: 100%;
+	z-index: 2;
+	box-shadow: 5px 5px 5px #000
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2D3047;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+h2 {
+    padding-top: 100px;
+    margin: 100px;
+    font-family: 'Leckerli One', cursive;
+    color: #000
+}
+
+h1 {
+    padding-top: 200px;
+    margin-left: 100px;
+    font-family: 'Leckerli One', cursive;
+    color: #000
+}
+
